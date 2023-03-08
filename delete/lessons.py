@@ -97,6 +97,18 @@ file = json.loads(json_products)
 for x in file: 
     if x["rating"]>4: 
         print(x['title']) 
+# Типы данных. Списки. Цикл for. Таск 6
+nums = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89] 
+res = [] 
+for i in nums: 
+    if i<5: 
+        res.append(i) 
+print(res)
+# Типы данных. Списки. Цикл for. Таск 7
+list_ = input().split(",") 
+tuple_ = tuple(list_) 
+print(list_) 
+print(tuple_)
 
 
         
